@@ -1,0 +1,25 @@
+{
+  "files.encoding": "utf8",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "search.exclude": {
+    "_book/**": true,
+    ".rpt2_cache/**": true,
+    "dist/**": true,
+    "node_modules/**": true,
+    "typings/**": true,
+    "LICENSE": true,
+    "lib/**": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "node_modules/": true
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true
+}
